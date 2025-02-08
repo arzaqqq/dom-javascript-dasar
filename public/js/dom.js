@@ -3,7 +3,8 @@ title.style.color = 'red';
 
 
 // 2 : getelementbytagname
-const tagname = document.getElementsByTagName('li');
+const buahs = document.getElementById('buah');
+const tagname = buahs.getElementsByTagName('li');
 // caar 1
 tagname[0].style.color = 'blue';
 tagname[1].style.color = 'green';
@@ -17,5 +18,5 @@ for (let i = 0 ; i < tagname.length ; i++) {
 
 // cara 3 for of
 for (const element of tagname) {
-    element.style.color = 'gray';
+    element.style.color = 'blue';
 }
