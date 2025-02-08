@@ -20,3 +20,14 @@ for (let i = 0 ; i < tagname.length ; i++) {
 for (const element of tagname) {
     element.style.color = 'blue';
 }
+
+
+
+// 3 : getelementbyclassname
+const classname = document.getElementsByClassName('item-class');
+classname[1].style.color = 'red';
+
+for (const element of classname) {
+    element.style.color = 'green';
+}
+
