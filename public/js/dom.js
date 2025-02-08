@@ -1,3 +1,4 @@
+// 1 : getelementbyid
 const title = document.getElementById('title');
 title.style.color = 'red';
 
@@ -27,7 +28,27 @@ for (const element of tagname) {
 const classname = document.getElementsByClassName('item-class');
 classname[1].style.color = 'red';
 
+// cara denagn loop
 for (const element of classname) {
     element.style.color = 'green';
+}
+
+
+
+// 4 : queryselector
+const item = document.querySelector('#title');
+item.style.color = 'yellow';
+
+
+// 5 : queryselectorall dengan class
+const items = document.querySelectorAll('.item-class');
+for (const element of items) {
+    element.style.color = 'red';
+}
+
+// cara 3 queryselectorall denmgan for of dan id
+const buah = document.querySelectorAll('#buah li');
+for (const element of buah) {
+    element.style.color = 'purple';
 }
 
