@@ -23,5 +23,6 @@ document.getElementById("button2").addEventListener("click",showalert2);
 /* 
 cara panggil dengan addeventlistener lebik vaik daripada onclick 
 karena jika dengan onclick bis ahapus function lasain ,tapijia addeventlistener tidak dihapus
+dan addeventlistener bisa dihapsu dengan removeeventlistener
 
 */
