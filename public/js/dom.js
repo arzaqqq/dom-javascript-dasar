@@ -1,6 +1,7 @@
 // 1 : getelementbyid
 const title = document.getElementById('title');
 title.style.color = 'red';
+title.innerText = 'Belajar Javascript';
 
 
 // 2 : getelementbytagname
